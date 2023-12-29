@@ -3143,7 +3143,7 @@
     "@formily/shared" "2.2.27"
     "@formily/validator" "2.2.27"
 
-"@formily/core@2.3.0", "@formily/core@2.x", "@formily/core@^2.2.0", "@formily/core@^2.2.27":
+"@formily/core@2.3.0":
   version "2.3.0"
   resolved "https://registry.npmmirror.com/@formily/core/-/core-2.3.0.tgz#2d9c09ec7579dc11cfd4d8f2f20fb0a56504e180"
   integrity sha512-kYMvASeycoS7i5L4Huu4iyNYzRJ4vqJ/MMhxdhpn21DgESlPmOhiTJCTMR9UOU3PDH0aN7dmF6zla1W8wojKFg==
@@ -3151,6 +3151,15 @@
     "@formily/reactive" "2.3.0"
     "@formily/shared" "2.3.0"
     "@formily/validator" "2.3.0"
+
+"@formily/core@2.x", "@formily/core@^2.2.0", "@formily/core@^2.2.27":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@formily/core/-/core-2.3.1.tgz#76c823d81a5dc8c9d40e7a197fe57c63e1f8b7cb"
+  integrity sha512-dCBPnmzDpQKdN4ddxi98VbdurpbH6SHb12S9y9SnzW/QTslZnkvrvBhTlucWB5XqXJfwcyCzpZIn/GdMAbPpZg==
+  dependencies:
+    "@formily/reactive" "2.3.1"
+    "@formily/shared" "2.3.1"
+    "@formily/validator" "2.3.1"
 
 "@formily/grid@^2.2.0", "@formily/grid@^2.2.27":
   version "2.3.0"
@@ -3188,6 +3197,11 @@
   resolved "https://registry.npmmirror.com/@formily/path/-/path-2.3.0.tgz#1cb71389ad39fd30e323b7f35f96cb35f12e304f"
   integrity sha512-LbSW50ytAH9wPlZc2VkjRjMukoYWiDAII7HfGkSnkCDQYduhWzvbqpkKOd/W8l5VFrLrl2/7yWkfp5cChv0wjA==
 
+"@formily/path@2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@formily/path/-/path-2.3.1.tgz#b7adb91f7d3bb0f2efc90672dda466a0590dcb1b"
+  integrity sha512-BVo89K5nAFntx02+EV696If1b1bVIm5I1tRPtVyCVIjBIfAgga5hK4k80GZ01Dlk3tpReHpiIbZVg2DNVfw7jA==
+
 "@formily/react@2.x", "@formily/react@^2.2.0", "@formily/react@^2.2.27":
   version "2.3.0"
   resolved "https://registry.npmmirror.com/@formily/react/-/react-2.3.0.tgz#381233c5b523dd8bb20385252eb466d6d24e7c79"
@@ -3214,10 +3228,15 @@
   resolved "https://registry.npmmirror.com/@formily/reactive/-/reactive-2.2.27.tgz#b67e6a0573910f0e57729b235a7bd1fe9b3e20ad"
   integrity sha512-ksdA4uIw3WMo0FmHcGsyqZgPwhujVgtXqxiWPSV+Tc2eEoJrInZhr15Q0IeTQ6glMh8izNsb19YK+PphBHwXGg==
 
-"@formily/reactive@2.3.0", "@formily/reactive@2.x", "@formily/reactive@^2.2.0", "@formily/reactive@^2.2.27":
+"@formily/reactive@2.3.0":
   version "2.3.0"
   resolved "https://registry.npmmirror.com/@formily/reactive/-/reactive-2.3.0.tgz#95582dfcf97c42410454ef7df0c247514bd4446e"
   integrity sha512-8QYApPL/GvATIP/9K3UeICJNuCaLq99NLlNLEuBsE7cIk2hFiFhWP7vnLtWBdorqeQZNYZ6lzSuau2Ndogu+Dw==
+
+"@formily/reactive@2.3.1", "@formily/reactive@2.x", "@formily/reactive@^2.2.0", "@formily/reactive@^2.2.27":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@formily/reactive/-/reactive-2.3.1.tgz#8607d29643ba06c0d40c12bb0eca2233e42ac04f"
+  integrity sha512-IVHOZW7VBc+Gq9eB/gPldi7pEC3wDonDb99KvHlS8SmzsY6+a/iAdrw2mDagXXUficsC2gT4y4EcJ2f1ALMKtQ==
 
 "@formily/shared@2.2.27":
   version "2.2.27"
@@ -3232,12 +3251,25 @@
     pascal-case "^3.1.1"
     upper-case "^2.0.1"
 
-"@formily/shared@2.3.0", "@formily/shared@2.x", "@formily/shared@^2.2.0", "@formily/shared@^2.2.27":
+"@formily/shared@2.3.0":
   version "2.3.0"
   resolved "https://registry.npmmirror.com/@formily/shared/-/shared-2.3.0.tgz#4423c3dfad0d1017cab1e3c6c8fd34004e0a9664"
   integrity sha512-sJiMLBmk4JMPI1CxzLawIc+ERTjcnWOm8u4cpmF+3XABdLNU3CxsIRT9CXiJnrS9ZR+OE12AW7cGp6A1hPm7ZA==
   dependencies:
     "@formily/path" "2.3.0"
+    camel-case "^4.1.1"
+    lower-case "^2.0.1"
+    no-case "^3.0.4"
+    param-case "^3.0.4"
+    pascal-case "^3.1.1"
+    upper-case "^2.0.1"
+
+"@formily/shared@2.3.1", "@formily/shared@2.x", "@formily/shared@^2.2.0", "@formily/shared@^2.2.27":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@formily/shared/-/shared-2.3.1.tgz#831369db4d01219b9ef72ee9140979985d14a870"
+  integrity sha512-qnlh6jnnIbUjcK0rWF9bm6AxgyxuBgURrzU5vMSxTNAN86P7K9+mSc/28qPsdNP9flEA2/clSexP5WEJAGYVgw==
+  dependencies:
+    "@formily/path" "2.3.1"
     camel-case "^4.1.1"
     lower-case "^2.0.1"
     no-case "^3.0.4"
@@ -3252,12 +3284,19 @@
   dependencies:
     "@formily/shared" "2.2.27"
 
-"@formily/validator@2.3.0", "@formily/validator@^2.2.27":
+"@formily/validator@2.3.0":
   version "2.3.0"
   resolved "https://registry.npmmirror.com/@formily/validator/-/validator-2.3.0.tgz#a04b94f7a18ac1a490c1e273eb0c2acd6662d6c2"
   integrity sha512-uh6rGjEZhCv+asDhkhKHVnN00tIQcb5wVFyAqtaHlUHGh2gBCiv0e3yb9H80UGQx/EiVuklmcVgR96gAMJfmDw==
   dependencies:
     "@formily/shared" "2.3.0"
+
+"@formily/validator@2.3.1", "@formily/validator@^2.2.27":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@formily/validator/-/validator-2.3.1.tgz#94ac89bcff96c3e028dd0b81bf92fb7f50ecf292"
+  integrity sha512-hM/IDvU/bachpS3fOUe02C9f5EytlNu6OJzDy+AyhWBmZYIVd6QVvPtjV8nyLOXIBJM9N4sxnGSliYQNAPjR1w==
+  dependencies:
+    "@formily/shared" "2.3.1"
 
 "@formulajs/formulajs@4.2.0":
   version "4.2.0"
@@ -4215,11 +4254,6 @@
   dependencies:
     eslint-scope "5.1.1"
 
-"@nocobase/plugin-workflow-test@>=0.17.0-alpha.3":
-  version "0.17.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/@nocobase/plugin-workflow-test/-/plugin-workflow-test-0.17.0-alpha.7.tgz#219a3a1e91e51bec08b1adbb1c4c5c9c7184ecce"
-  integrity sha512-krZlo1xDM66spbQG6jAYSraxazuxCuA2rD9TxptFQXjkAMTGkuDilJ+edMj6p866N3nyzvFh8lZ2/XY1HUC7Xw==
-
 "@node-saml/node-saml@^4.0.2":
   version "4.0.5"
   resolved "https://registry.npmmirror.com/@node-saml/node-saml/-/node-saml-4.0.5.tgz#039e387095b54639b06df62b1b4a6d8941c6d907"
@@ -4752,6 +4786,11 @@
   version "1.14.0"
   resolved "https://registry.npmmirror.com/@remix-run/router/-/router-1.14.0.tgz#9bc39a5a3a71b81bdb310eba6def5bc3966695b7"
   integrity sha512-WOHih+ClN7N8oHk9N4JUiMxQJmRVaOxcg8w7F/oHUXzJt920ekASLI/7cYX8XkntDWRhLZtsk6LbGrkgOAvi5A==
+
+"@remix-run/router@1.14.1":
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.14.1.tgz#6d2dd03d52e604279c38911afc1079d58c50a755"
+  integrity sha512-Qg4DMQsfPNAs88rb2xkdk03N3bjK4jgX5fR24eHCTR9q6PrhZQZ4UJBPzCHJkIpTRN1UKxx2DzjZmnC+7Lj0Ow==
 
 "@restart/hooks@^0.4.7":
   version "0.4.15"
@@ -18742,7 +18781,7 @@ number-is-nan@^1.0.0:
 
 nwsapi@2.2.7, nwsapi@^2.2.0:
   version "2.2.7"
-  resolved "https://registry.npmmirror.com/nwsapi/-/nwsapi-2.2.7.tgz#738e0707d3128cb750dddcfe90e4610482df0f30"
+  resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.7.tgz#738e0707d3128cb750dddcfe90e4610482df0f30"
   integrity sha512-ub5E4+FBPKwAZx0UwIQOjYWGHTEq5sPqHQNRN8Z9e4A7u3Tj1weLJsL59yH9vmvqEtBHaOmT6cYQKIZOxp35FQ==
 
 oauth-sign@~0.9.0:
@@ -21499,11 +21538,11 @@ react-router-dom@6.3.0, react-router-dom@6.x, react-router-dom@^6.11.2:
     react-router "6.21.0"
 
 react-router@6.21.0, react-router@6.3.0, react-router@^6.11.2:
-  version "6.21.0"
-  resolved "https://registry.npmmirror.com/react-router/-/react-router-6.21.0.tgz#6fe3e59877aca3dccceec1801d26991ddf42d12b"
-  integrity sha512-hGZ0HXbwz3zw52pLZV3j3+ec+m/PQ9cTpBvqjFQmy2XVUWGn5MD+31oXHb6dVTxYzmAeaiUBYjkoNz66n3RGCg==
+  version "6.21.1"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.21.1.tgz#8db7ee8d7cfc36513c9a66b44e0897208c33be34"
+  integrity sha512-W0l13YlMTm1YrpVIOpjCADJqEUpz1vm+CMo47RuFX4Ftegwm6KOYsL5G3eiE52jnJpKvzm6uB/vTKTPKM8dmkA==
   dependencies:
-    "@remix-run/router" "1.14.0"
+    "@remix-run/router" "1.14.1"
 
 react-side-effect@^2.1.0:
   version "2.1.2"
